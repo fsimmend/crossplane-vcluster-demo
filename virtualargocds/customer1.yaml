@@ -1,7 +1,7 @@
-apiVersion: demo.coremedia.com/v1alpha1
-kind: VirtualArgoCD
-metadata:
-  name: customer1
-spec:
-  argocd:
-    values: {}
+#apiVersion: demo.coremedia.com/v1alpha1
+#kind: VirtualArgoCD
+#metadata:
+#  name: customer1
+#spec:
+#  argocd:
+#    values: {}
