@@ -3,11 +3,11 @@ kind: Composition
 metadata:
   name: virtualargocd
   labels:
-    crossplane.io/xrd:  xvirtualargocds.demo.codefresh.io
+    crossplane.io/xrd:  xvirtualargocds.demo.coremedia.com
     provider: helm
 spec:
   compositeTypeRef:
-    apiVersion: demo.codefresh.io/v1alpha1
+    apiVersion: demo.coremedia.com/v1alpha1
     kind: XVirtualArgoCD
   resources:
   - name: vcluster

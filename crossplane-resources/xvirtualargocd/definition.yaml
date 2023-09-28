@@ -1,9 +1,9 @@
 apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
-  name: xvirtualargocds.demo.codefresh.io
+  name: xvirtualargocds.demo.coremedia.com
 spec:
-  group: demo.codefresh.io
+  group: demo.coremedia.com
   names:
     kind: XVirtualArgoCD
     plural: xvirtualargocds
